@@ -3,7 +3,7 @@ function search(){
 
 var city =  $("#city").val();
 $.ajax({
-    url: 'http://api.openweathermap.org/data/2.5/weather?q='+city+'&APPID=09b7d6a7e4a9ceb7d3cb6ed0df70fcf0',
+    url: 'https://api.openweathermap.org/data/2.5/weather?q='+city+'&APPID=09b7d6a7e4a9ceb7d3cb6ed0df70fcf0',
     type: 'GET',
 	dataType: "jsonp",
     success: function(data) {
